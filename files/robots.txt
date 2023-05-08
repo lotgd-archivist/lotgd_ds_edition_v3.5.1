@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /lib
+Disallow: /cache
+Disallow: /item_modules
+Disallow: /chat_specials
+Disallow: /houses_modules
+Disallow: /jslib
+Disallow: /jquery
+Disallow: /lib
+Disallow: /module
+Disallow: /templates

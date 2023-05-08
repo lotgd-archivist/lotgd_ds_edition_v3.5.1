@@ -1,0 +1,256 @@
+/* CSS Document */
+a {
+    color: #0099FF;
+    text-decoration: none;
+}
+a.nav {
+    text-decoration: none;
+    width: 181px;
+    height: auto;
+    padding: 1px;
+    float: left;
+    clear: none;
+    border-top: 1px solid #003366;
+    border-bottom: 1px solid #003366;
+    border-right: 1px none #003366;
+    border-left: 1px none #003366;
+}
+a:hover.nav {
+    background-color: #003366;
+    border-top: 1px outset #003366;
+    border-right: 1px none #003366;
+    border-bottom: 1px outset #003366;
+    border-left: 1px none #003366;
+}
+a.navhilite {
+    text-decoration: none;
+    width: 150px;
+    height: auto;
+    padding: 1px;
+    float: right;
+    clear: none;
+    color:#FFFF00;
+    background-color: #330000;
+    border-top: 1px solid #330000;
+    border-bottom: 1px solid #330000;
+    border-right: 1px none #330000;
+    border-left: 1px none #330000;
+}
+a:hover.navhilite {
+    background-color: #990000;
+    border-top: 1px outset #CC0000;
+    border-right: 1px none #CC0000;
+    border-bottom: 1px outset #CC0000;
+    border-left: 1px none #CC0000;
+}
+.navhead {
+    text-decoration: none;
+    width: 180px;
+    border: 1px #003366;
+    height: auto;
+    padding: 1px;
+    line-height: 18px;
+    float: left;
+    clear: none;
+    background-color: #000066;
+    font-weight: bold;
+    color: #00CCFF;
+    cursor: default;
+    text-align: center;
+}
+.navhelp {
+    text-decoration: none;
+    width: 181px;
+    height: auto;
+    padding: 1px;
+    float: left;
+    clear: none;
+    border-top: 1px solid #003366;
+    border-bottom: 1px solid #003366;
+    border-right: 1px none #003366;
+    border-left: 1px none #003366;
+}
+td.noborder {
+    border: none;
+}
+table.noborder {
+    border: none;
+}
+td.form_title{
+    cursor: pointer;
+    padding: 2px;
+    width:40px;
+    border:1px solid #000000;
+    color: #0099FF;
+    background: #303030;
+}
+td.form_title_selected{
+    cursor: pointer;
+    padding: 2px;
+    width:40px;
+    border:1px solid #000000;
+    color: #FFFF00;
+    background: #550000;
+}
+
+input {
+    background-color: #433828;
+    border: 1px solid #806B4D;
+    color: #CCCCCC;
+}
+.button {
+    font-size: 12px;
+    color: #F8DB83;
+    background-color: #6b563f;
+    border-top: 1px solid #947356;
+    border-left: 1px solid #947356;
+    border-right: 1px solid #403225;
+    border-bottom: 1px solid #403225;
+}
+.input {
+    background-color: #433828;
+    border: 1px solid #806B4D;
+    color: #CCCCCC;
+}
+select {
+    background-color: #433828;
+    border: 1px solid #806B4D;
+    color: #CCCCCC;
+}
+table.vitalinfo {
+    background-color: #003300;
+    border: 1px solid #000000;
+    width: 182px;
+}
+table.nav {
+    background-color: #003366;
+    border: 1px solid #000000;
+    width: 182px;
+}
+
+a.motd {
+    text-decoration: none;
+    text-align: center;
+    color:#DEC55D;
+    width: 117px;
+    height: 14px;
+    font-weight:bold;
+    background-image: url(../images/frame/button.gif);
+    padding: 2px;
+    float: left;
+    clear: none;
+}
+a:hover.motd {
+    color:#EEE555;
+    background-image: url(../images/frame/button_over.gif);
+}
+.pagetitle {
+    color: #FFFFFF;
+}
+.navhi {
+    color: #00FF00;
+    text-decoration: underline;
+}
+.colDkBlue {
+    color: #0000B0;
+}
+.colDkGreen {
+    color: #00B000;
+}
+.colDkCyan {
+    color: #00B0B0;
+}
+.colDkRed {
+    color: #B00000;
+}
+.colDkMagenta {
+    color: #B000CC;
+}
+.colDkYellow {
+    color: #B0B000;
+}
+.colDkWhite {
+    color: #B0B0B0;
+}
+.colLtBlue {
+    color: #0000FF;
+}
+.colLtGreen {
+    color: #00FF00;
+}
+.colLtCyan {
+    color: #00FFFF;
+}
+.colLtRed {
+    color: #FF0000;
+}
+.colLtMagenta {
+    color: #FF00FF;
+}
+.colLtYellow {
+    color: #FFFF00;
+}
+.colLtWhite {
+    color: #FFFFFF;
+}
+.colLtBlack {
+    color: #999999;
+}
+.colOrange {
+    color: #FF9900;
+}
+.colDkOrange {
+    color: #FF6600;
+}
+.colBlue {
+    color: #0070FF;
+}
+.colLime {
+    color: #DDFFBB;
+}
+.colBlack {
+    color: #000000;
+}
+.colRose {
+    color: #EEBBEE;
+}
+.colblueviolet {
+    color: #9A5BEE;
+}
+.coliceviolet {
+    color: #AABBEE;
+}
+.colLtBrown {
+    color: #F8DB83;
+}
+.colDkBrown {
+    color: #6b563f;
+}
+.colXLtGreen {
+    color: #aaff99;
+}
+.colAttention {
+    background-color: #00FF00;
+    color: #FF0000;
+}
+.colWhiteBlack {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.colBack {
+    background-color:#00FFFF;
+    color:#000000;
+}
+.trhead {
+    background-color:#990000;
+    color:#FFFFFF;
+    padding:2px;
+}
+.trlight {
+    background-color:#330000;
+    padding:2px;
+}
+.trdark {
+    background-color:#000000;
+    padding:2px;
+}
